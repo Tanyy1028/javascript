@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+    let a =parseInt(prompt("enter a"))
+    let b =parseInt(prompt("enter b"))
+    let c =parseInt(prompt("enter c"))
+    let d =parseInt(prompt("enter d"))
+    let e =parseInt(prompt("enter e"))
+
+    // Using nested if-else to find the maximum
+    if (a > b) {
+        if (a > c) {
+            if (a > d) {
+                if (a > e) {
+                    document.writeln("a is max")
+                } else {
+                    document.writeln("e is max")
+                }
+            } else {
+                if (d > e) {
+                    document.writeln("d is max")
+                } else {
+                    document.writeln("e is max")
+                }
+            }
+        } else {
+            if (c > d) {
+                if (c > e) {
+                    document.writeln("c is max")
+                } else {
+                    document.writeln("e is max")
+                }
+            } else {
+                if (d > e) {
+                    document.writeln("d is max")
+                } else {
+                    document.writeln("e is max")
+                }
+            }
+        }
+    } else {
+        if (b > c) {
+            if (b > d) {
+                if (b > e) {
+                    document.writeln("b is max")
+                } else {
+                    document.writeln("e is max")
+                }
+            } else {
+                if (d > e) {
+                    document.writeln("d is max")
+                } else {
+                    document.writeln("e is max")
+                }
+            }
+        } else {      
+            if (c > d) {
+                if (c > e) {
+                    document.writeln("c is max")
+                } else {
+                    document.writeln("e is max")
+                }
+            } else {
+                if (d > e) {
+                    document.writeln("d is max")
+                } else {
+                    document.writeln("e is max")
+                }
+            }  
+        }
+    }
+
+</script>
+
+</body>
+</html>
+
