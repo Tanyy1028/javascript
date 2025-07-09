@@ -22,6 +22,10 @@ This is a simple **image carousel** built using **HTML, CSS, and JavaScript**. I
 
 
 
+https://github.com/user-attachments/assets/7f33c59c-abf3-47fc-a54c-ed6fe202557b
+
+
+
 
 
 
