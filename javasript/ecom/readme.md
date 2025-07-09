@@ -60,9 +60,12 @@ This project does **not use any external libraries or frameworks**. It’s built
 
 ---
 
-## 📸 vide
+## 📸 video
 
 
+
+
+https://github.com/user-attachments/assets/81a8ec0a-340d-406c-ad86-8dde6109e92b
 
 
 
