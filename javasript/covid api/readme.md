@@ -65,6 +65,15 @@ https://api.rootnet.in/covid19-in/stats/latest
 
 
 
+
+
+
+https://github.com/user-attachments/assets/11d9f155-0e43-4106-b1a7-b4494af21c09
+
+
+
+
+
 ---
 
 ## 📄 License
