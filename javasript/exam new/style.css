@@ -1,0 +1,93 @@
+body {
+    font-family: Courier;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #80D8C3;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+ 
+.countries,
+.favorites {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    
+}
+
+.favorites {
+    flex: 0.4;
+    border-right: none;
+    background-color: #FFD66B;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+.country,
+.favorite-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.country img,
+.favorite-item img {
+    width: 40px;
+    height: 30px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.no-results {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+}
